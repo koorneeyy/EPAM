@@ -10,7 +10,7 @@ public class Main {
         ConvertView view = new ConvertView();
         NumberModel model = new NumberModel();
         ConvertController controller = new ConvertController(model, view);
-        controller.convertTobin();
+        controller.convertToDiffRepresentation();
     }
 
 }

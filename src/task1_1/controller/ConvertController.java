@@ -13,7 +13,7 @@ public class ConvertController {
         this.view = view;
     }
 
-    public void convertTobin() {
+    public void convertToDiffRepresentation() {
         model.setValue(InputUtility.inputIntValueWithScanner(view));
         view.printMessageAndResult(ConvertView.BIN, model.convertToBinary());
         view.printMessageAndResult(ConvertView.OCTA, model.convertToOcta());

@@ -1,7 +1,5 @@
 package task1_3.controller;
 
-
-
 import task1_3.model.PyramidModel;
 import task1_3.view.InputUtility;
 import task1_3.view.PyramidView;

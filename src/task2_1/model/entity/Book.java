@@ -1,6 +1,6 @@
 package task2_1.model.entity;
 
-public class Book {
+public class Book implements Comparable {
     private String name;
     private String author;
     private String publisher;
@@ -64,5 +64,12 @@ public class Book {
                 ", pages=" + pages +
                 ", price=" + price +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        Book book =(Book ) o;
+        return  this.getPublisher().compareTo(book.getPublisher());
+
     }
 }

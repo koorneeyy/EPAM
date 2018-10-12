@@ -4,8 +4,7 @@ import java.util.Random;
 
 public class MatrixModel {
     private int dimensions;
-    private int [][] matrix;
-
+    private int[][] matrix;
 
 
     public int getDimensions() {
@@ -24,26 +23,27 @@ public class MatrixModel {
         this.matrix = matrix;
     }
 
-    public void createRandomMatrix(){
-        matrix=new int[dimensions][dimensions];
-        for (int i=0;i<matrix.length;i++){
-            for (int j=0;j<matrix[i].length;j++){
-                matrix[i][j]=new Random().nextInt(10);
+    public void createRandomMatrix() {
+        matrix = new int[dimensions][dimensions];
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                matrix[i][j] = new Random().nextInt(10);
             }
         }
     }
-    public String printMatrix(){
-        StringBuilder sb=new StringBuilder();
-        for (int i=0;i<matrix.length;i++){
-            for (int j=0;j<matrix[i].length;j++){
-               sb.append(matrix[i][j]+" ");
+
+    public String printMatrix() {
+        StringBuilder sb = new StringBuilder();
+        for (int[] arr2 : matrix) {
+            for (int val : arr2) {
+                sb.append(val + " ");
             }
             sb.append("\n");
         }
         return sb.toString();
     }
 
-    public void rotateMatrix(){
+    public void rotateMatrix() {
         for (int i = 0; i < matrix.length; i++)
             for (int j = i; j < matrix[0].length; j++) {
                 int temp = matrix[j][i];

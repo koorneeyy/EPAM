@@ -19,8 +19,7 @@ abstract public class Shape implements Drawable {
 
     @Override
     public String toString() {
-        return "Shape{" +
-                "shapeColor='" + shapeColor + '\'' +
-                '}';
+        return this.getClass().getSimpleName() +
+                ": shapeColor='" + shapeColor + '\'' ;
     }
 }

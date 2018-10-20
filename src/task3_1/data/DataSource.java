@@ -1,7 +1,7 @@
 package task3_1.data;
 
-import task3_1.model.entity.BaseToy;
-import task3_1.model.entity.CarToy;
+import task3_1.model.BaseToy;
+import task3_1.model.CarToy;
 
 public class DataSource {
     public static BaseToy[] getToys(){

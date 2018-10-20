@@ -10,11 +10,12 @@ public class ToyController {
     ToysView view = new ToysView();
 
     public void run() {
-        model.setToys(DataSource.getToys());
+     /*   model.setToys(DataSource.getToys());
         view.printToys(ToysView.ALL_TOYS, model.getToys());
         view.printMessage(ToysView.PRICE_SUM + String.valueOf(model.getTotalPrice()));
         view.printMessage(ToysView.COUNT + String.valueOf(model.getToysCountInRoom()));
         view.printToys(ToysView.BY_NAME, model.orderByName());
-        view.printToys(ToysView.BY_AGE_FILTER, model.getToysByAge(5));
+       view.printToys(ToysView.BY_AGE_FILTER, model.getToysByAge(5));
+        */
     }
 }

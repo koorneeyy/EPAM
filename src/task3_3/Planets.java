@@ -1,0 +1,5 @@
+package task3_3;
+
+enum Planets {MERCURY, VENUS, EARTH, MARS, JUPITER, SATURN, URANUS, NEPTUNE}
+
+

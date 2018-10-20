@@ -1,6 +1,6 @@
 package task3_1.view;
 
-import task3_1.model.entity.BaseToy;
+import task3_1.model.BaseToy;
 
 public class ToysView {
     public void printShapes(String message, BaseToy[] toys){

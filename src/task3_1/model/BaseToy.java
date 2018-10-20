@@ -1,4 +1,4 @@
-package task3_1.model.entity;
+package task3_1.model;
 
 
 public abstract class BaseToy {

@@ -1,4 +1,4 @@
-package task3_1.model.entity;
+package task3_1.model;
 
 import java.util.Arrays;
 import java.util.Comparator;

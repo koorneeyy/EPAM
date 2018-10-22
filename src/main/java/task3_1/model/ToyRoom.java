@@ -1,5 +1,7 @@
 package task3_1.model;
 
+import task3_1.model.entity.BaseToy;
+
 import java.util.Arrays;
 import java.util.Comparator;
 

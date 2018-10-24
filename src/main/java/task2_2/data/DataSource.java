@@ -20,7 +20,7 @@ public class DataSource {
                 new Triangle(5.5,4.2,"blue"),
                 new Triangle(7.5,12.7,"green"),
                 new Triangle(57.5,41.2,"gray"),
-                new Triangle(68.5,15.2,"black"),
+                new Triangle(68.5,15.2,"black")
         };
     }
 
